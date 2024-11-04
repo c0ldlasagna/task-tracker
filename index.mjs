@@ -86,13 +86,13 @@ let changeStatus = async () =>{
 
 function quit() {
     exit = true;
-    console.log("Exiting Task Scheduler. Goodbye!");
+    console.log("Exiting Task Tracker. Goodbye!");
 }
 
 let exit = false;
 
 let program = async () => {
-    console.log("Welcome to the Task Scheduler");
+    console.log("Welcome to the Task Tracker");
 
     while (!exit) {
         const option = await select({
