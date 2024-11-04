@@ -25,8 +25,6 @@ class Task {
     }
 }
 
-console.log("Task Scheduler v1.0");
-
 let makeTasks = async () => {
     let addMore = true;
     
